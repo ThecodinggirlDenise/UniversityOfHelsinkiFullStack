@@ -1,4 +1,4 @@
- ```mermaid
+```mermaid
 sequenceDiagram
     participant User
     participant Browser
@@ -19,5 +19,6 @@ sequenceDiagram
     Browser->>Browser: Adds the new note to the list
     Browser->>User: Displays the new note on the page
 
-    Browser Right: SPA-style interaction\nwith server using AJAX
+    Note right of Browser: SPA-style interaction\nwith server using AJAX
+
 
